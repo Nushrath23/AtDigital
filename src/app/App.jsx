@@ -20,13 +20,7 @@ function App() {
 
   return (
     <>
-      <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>AT DIGITAL</title>
-      </head>
-      <body>
+      
       <div className="containerw">
         <NavBar className="nav-custom" />
         <upperB/>
@@ -35,8 +29,7 @@ function App() {
         <Card2/>
         <FooterP />
     </div>
-      </body>
-      </html>
+      
      
       
       
