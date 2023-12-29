@@ -9,8 +9,9 @@
 .picBg{
   height:auto;
   display: block;
-  width:fit-content;
+  width:100vw;
   position: relative;
+  z-index: 1;
 }
 .purp{
   color:#6B3CC9;
@@ -18,6 +19,8 @@
 }
 .nostyle{
   list-style-type: none;
+  align-items: start;
+  text-align: left;
 }
 .navp{
   font-size: medium;
@@ -60,28 +63,29 @@
   align-items: center;
   text-align:center;
   color: #ffffff;
+  z-index: 2;
 }
 
 @media (max-width: 1200px) {
   .containerw {
-    width: 100%; /* Adjust container width for smaller screens */
+    width: 100%; 
   }
  
 }
 @media (max-width: 768px) {
   .containerw {
-    width: 100%; /* Adjust container width for smaller screens */
+    width: 100%; 
   }
   
 }
 @media (max-width: 375px) {
   .containerw {
-    width: 100%; /* Adjust container width for smaller screens */
+    width: 100%; 
   }
   .navp{
     text-wrap:wrap;
   } 
   .footB{
-    width:initial;
+    width: auto;
   }
 }
