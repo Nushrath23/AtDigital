@@ -13,20 +13,16 @@ export default function NavBar(){
         <img src='../src/assets/Logo.png'/>
         </Col>
         <Col>
-        <Nav className="navb justify-content-end"  >
-        <Nav.Item>
-          <Nav.Link href="/">Services</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="/">About us</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="/">Contact us</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="/">Careers</Nav.Link>
-        </Nav.Item>
-      </Nav> 
+        <div className="navb justify-content-end"  >
+        <ol>
+          <li>Services</li>
+          <li>About us</li>
+          <li>Contact us</li>
+          <li>Careers</li>
+        </ol>
+        
+       
+      </div>
       </Col>
       </Row>
       </Container>

@@ -5,7 +5,7 @@ export default function BackGround(){
 
        return (
         <div className='picBg'>
-        <img  src="./src/assets/Hero Image.png" />
+        <img  src="./src/assets/Hero Image.png"/>
         </div>
 
        )

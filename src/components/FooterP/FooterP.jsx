@@ -49,7 +49,7 @@ export default function FooterP(){
             </Row>
           </Container>
       
-        <div className="nav-custom text-center"><h5>Privacy Policy | Terms & Conditions</h5></div>
+        <div className="nav-custom text-center"><hr /><h5>Privacy Policy | Terms & Conditions</h5><br /></div>
         
         
       </>

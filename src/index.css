@@ -2,14 +2,19 @@
 .nav-custom {
   background-color: #6B3CC9;
   color: white;
-  padding: 10px;
-  justify-content:space-evenly;
-  width: 100%;
+  justify-content:end;
+  width: 1440px;
+  margin-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+ 
+
 }
 .picBg{
   height:auto;
   display: block;
-  width:100vw;
+  width: 1440px;
   position: relative;
   z-index: 1;
 }
@@ -19,9 +24,20 @@
 }
 .nostyle{
   list-style-type: none;
-  align-items: start;
-  text-align: left;
 }
+
+.navb ol{
+  list-style-type: none;
+}
+.navb li{
+  display: inline;
+  padding: 2%;
+  float:inline-end;
+  right: 2px;
+  justify-content: right;
+  
+}
+
 .navp{
   font-size: medium;
   justify-content:space-between ;
@@ -31,10 +47,10 @@
 }
 .custom-card {
   margin-left: 10%;
-  margin-bottom: 10%;
+  margin-right: 10%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   border: none;
   width: 1064px;
 }

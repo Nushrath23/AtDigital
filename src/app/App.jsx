@@ -26,6 +26,7 @@ function App() {
         <upperB/>
         <BackGround/>
         <Card1/>
+        <br />
         <Card2/>
         <FooterP />
     </div>
