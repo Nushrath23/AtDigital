@@ -23,8 +23,9 @@ export default function FooterP(){
                 </Col>
                 <Col sm={2}>
                     <br />
-                    <h5>Our Technologies</h5>
+                    
                     <ol class="nostyle navp">
+                        <li><h5>Our Technologies</h5></li>
                         <li>ReactJS</li>
                         <li>Gatsby</li>
                         <li>NextJS</li>
@@ -35,8 +36,9 @@ export default function FooterP(){
                 </Col>
                 <Col sm={2}>
                     <br />
-                <h5>Our Services</h5>
+                
                     <ol class="nostyle navp">
+                    <li><h5>Our Services</h5></li>
                         <li>Social Media Marketing</li>
                         <li>Web & Mobile App Development </li>
                         <li>Data & Analytics</li>
